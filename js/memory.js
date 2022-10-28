@@ -189,7 +189,7 @@ function startTimer() {
     var minutes = 0;
 
     interval = setInterval(function () {
-        timer.innerHTML = `Tempo: ${minutes} min ${seconds} sec`;
+        timer.innerHTML = `Time: ${minutes} min ${seconds} sec`;
         seconds++;
         if (seconds == 60) {
             minutes++;
